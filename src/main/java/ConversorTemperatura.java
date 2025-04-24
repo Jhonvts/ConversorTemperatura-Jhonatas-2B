@@ -2,6 +2,8 @@
 public class ConversorTemperatura {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Temperatura c1 = new Temperatura(50.5);
+       
+        System.out.println("Temp en F: "+ c1.converterParaFahrenheit());
     }
 }
